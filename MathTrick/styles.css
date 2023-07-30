@@ -1,0 +1,67 @@
+/* Reset some default styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, form, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  line-height: 1.6;
+  background-image: url('starry.jpg'); /* Add this line */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Rest of the CSS styles remain unchanged */
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h3 {
+  color: #fff;
+}
+
+.block {
+  background-color: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+.output {
+  margin-top: 10px;
+  color: #fff;
+}
